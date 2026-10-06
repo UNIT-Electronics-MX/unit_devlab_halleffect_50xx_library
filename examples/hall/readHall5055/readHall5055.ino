@@ -1,3 +1,14 @@
+/**
+ * @file readHall5055.ino
+ * @brief Lee el valor crudo y el campo magnético (mT) del módulo Hall Effect 5055 por I2C.
+ *
+ * Imprime por Serial "raw=<valor> B=<campo> mT" cada 100 ms.
+ * Compatible con ESP32 y RP2040/RP2350.
+ *
+ * @author Jonathan Mejorado
+ * @organization UNIT Electronics MX
+ */
+
 #include <Arduino.h>
 #include <Wire.h>
 #include <DevLab_HallEffect.h>

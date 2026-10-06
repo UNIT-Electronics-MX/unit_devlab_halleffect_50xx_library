@@ -1,3 +1,14 @@
+/**
+ * @file readHall5013.ino
+ * @brief Detecta la presencia de un imán con el módulo Hall Effect 5013 por I2C.
+ *
+ * Imprime por Serial "Magnet detected" / "No magnet" solo cuando cambia el estado.
+ * Compatible con ESP32 y RP2040/RP2350.
+ *
+ * @author Jonathan Mejorado
+ * @organization UNIT Electronics MX
+ */
+
 #include <Arduino.h>
 #include <Wire.h>
 #include <DevLab_HallEffect.h>
