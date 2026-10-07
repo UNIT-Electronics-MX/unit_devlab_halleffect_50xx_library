@@ -10,7 +10,7 @@ master and the
 `DevLab_I2C_Orchestrator` bus class into a single `DevLab_HallEffect` object.
 Firmware: `unit_firmware_i2c_halleffect_module`.
 
-Compatible with ESP32 and RP2040/RP2350.
+Compatible with ESP32, RP2040/RP2350, STM32 and AVR.
 
 # Features
 
